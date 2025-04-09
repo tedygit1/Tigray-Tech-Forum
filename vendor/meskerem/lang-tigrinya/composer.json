@@ -1,0 +1,36 @@
+{
+    "name": "meskerem/lang-tigrinya",
+    "description": "Tigrinya language pack for Flarum.",
+    "type": "flarum-extension",
+    "keywords": ["flarum", "language", "tigrinya"],
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "Meharin",
+        "email": "your@email.com"
+      }
+    ],
+    "require": {
+      "flarum/core": "^1.0"
+    },
+    "extra": {
+      "flarum-extension": {
+        "title": "Tigrinya Language Pack",
+        "locale": "ti"
+      }
+    },
+    "autoload": {
+      "psr-4": {
+        "Meskerem\\LangTigrinya\\": "src/"
+      }
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "repositories": {
+        "lang-tigrinya": {
+            "type": "path",
+            "url": "./extensions/meskerem/lang-tigrinya"
+        }
+    }
+}

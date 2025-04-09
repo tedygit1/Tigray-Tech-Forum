@@ -1,0 +1,6 @@
+name: meskerem/lang-tigrinya
+type: flarum-extension
+description: 'Tigrinya Language Pack for Flarum'
+version: '1.0.0'
+dependencies:
+  flarum/core: '^1.0.0'
