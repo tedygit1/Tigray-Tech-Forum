@@ -1,2 +1,2 @@
 git is good 
-using git improves projcet quality 
+using git improves  
